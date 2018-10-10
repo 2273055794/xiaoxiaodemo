@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体大小 -->
+    <dimen name="font_12sp">12sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+    <dimen name="font_15sp">15sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_22sp">22sp</dimen>
+    <!--边距大小-->
+    <dimen name="dp_05">0.5dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+
+    <!--布局界面左右边距大小-->
+    <dimen name="left_padding">20dp</dimen>
+    <dimen name="right_padding">20dp</dimen>
+    <!--轮播图的高度-->
+    <dimen name="header_height">150dp</dimen>
+    <dimen name="header_height_jb">128dp</dimen>
+    <!--手势密码-->
+    <dimen name="_270dp">240dp</dimen>
+    <!--标题字体大小-->
+    <dimen name="title_tv_text_size">15sp</dimen>
+
+    <!-- Helper 系列界面 -->
+</resources>

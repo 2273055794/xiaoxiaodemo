@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--倒计时-->
+    <declare-styleable name="CountDownButtonView">
+        <attr name="text" format="string"></attr>
+        <attr name="time" format="integer"></attr>
+        <attr name="format" format="string"></attr>
+    </declare-styleable>
+    <!--倒计时-->
+
+    <!--开关2 ios-->
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+    <!--页面状态控制器-->
+    <declare-styleable name="XLoadingView">
+        <attr name="loadingView" format="reference" />
+        <attr name="errorView" format="reference" />
+        <attr name="emptyView" format="reference" />
+        <attr name="noNetworkView" format="reference" />
+    </declare-styleable>
+</resources>

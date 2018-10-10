@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shap_load_dialog_bg"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp">
+        <!--style="@android:style/Widget.Holo.ProgressBar"-->
+
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="@style/dialog_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+        <!--style="@style/def_progress_bar"-->
+
+        <TextView
+            android:id="@+id/login_monitor_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="8.0dip"
+            android:text="请稍等"
+            android:textColor="@color/color_black_lignt"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <!--<ImageView-->
+        <!--android:layout_width="15dp"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:layout_alignRight="@id/ll"-->
+        <!--android:padding="2dp"-->
+
+        <!--android:layout_margin="5dp"-->
+        <!--android:src="@drawable/icon_close_n"/>-->
+</RelativeLayout>

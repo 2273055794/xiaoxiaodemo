@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".activitys.GoodsAfterSaleActivity">
+    <!--<com.mfc.kdyxworker.widget.TitleBar-->
+        <!--android:id="@+id/titlebar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:showBottomLine="false"-->
+        <!--app:leftType="imageButton"-->
+        <!--app:leftImageResource="@mipmap/btn_fanhui"-->
+        <!--app:centerType="textView"-->
+        <!--app:centerText="商品售后">-->
+    <!--</com.mfc.kdyxworker.widget.TitleBar>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ry_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="@dimen/font_18sp"
+        android:textColor="@color/color_white"
+        android:background="@drawable/selector_btn_bgreen_noborder_n"
+        android:text="确定"/>
+</LinearLayout>

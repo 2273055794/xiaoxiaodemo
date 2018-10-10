@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!---->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <!-- 边框里面背景颜色 -->
+                <shape>
+                    <corners android:radius="@dimen/dp_90"/>
+                    <solid android:color="@color/bg" />
+                </shape>
+            </item>
+            <item
+                android:bottom="@dimen/dp_05"
+                android:top="@dimen/dp_05"
+                android:left="@dimen/dp_05"
+                android:right="@dimen/dp_05">
+                <!-- 边框背景颜色 -->
+                <shape>
+                    <corners android:radius="@dimen/dp_90"/>
+                    <solid android:color="@color/bg" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!---->
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/dp_90"/>
+                    <solid android:color="@color/color_green" />
+                </shape>
+            </item>
+            <item
+                android:bottom="@dimen/dp_05"
+                android:top="@dimen/dp_05"
+                android:left="@dimen/dp_05"
+                android:right="@dimen/dp_05">
+                <!-- 边框背景颜色 -->
+                <shape>
+                    <corners android:radius="@dimen/dp_90"/>
+                    <solid android:color="@color/color_white" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

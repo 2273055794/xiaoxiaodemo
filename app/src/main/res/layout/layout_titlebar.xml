@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mfc.kdyxworker.widget.TitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:showBottomLine="false"
+    app:centerType="textView"
+    app:centerText="蝌蚪优选">
+</com.mfc.kdyxworker.widget.TitleBar>

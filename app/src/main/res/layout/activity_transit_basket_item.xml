@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="@dimen/left_padding"
+    android:paddingRight="@dimen/right_padding"
+    android:background="@color/color_white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="白色中转筐55*40cm"
+        android:textSize="@dimen/font_14sp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/color_black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:text="库存数量: 1"
+            android:textSize="@dimen/font_12sp"
+            android:textColor="@color/color_black_lignt"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:text="退货数量: 1"
+            android:textSize="@dimen/font_12sp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_black_lignt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="押金金额: 1"
+            android:textSize="@dimen/font_12sp"
+            android:textColor="@color/color_black_lignt"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应退金额: "
+                android:textSize="@dimen/font_12sp"
+                android:textColor="@color/color_black_lignt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/money"
+                android:textSize="@dimen/font_12sp"
+                android:textColor="@color/color_green"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_grey_line_1dp"/>
+    <!--按钮-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_72">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="@dimen/font_16sp"
+                android:background="@drawable/selector_btn_bwhile_bordergrey_r"
+                android:layout_marginRight="5dp"
+                android:text="编辑"
+                android:textColor="@color/color_black_lignt"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="@dimen/font_16sp"
+                android:background="@drawable/selector_btn_bwhile_bordergreen_r"
+                android:text="删除"
+                android:textColor="@color/color_green"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

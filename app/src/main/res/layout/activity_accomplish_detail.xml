@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".activitys.AccomplishDetailActivity">
+    <com.mfc.kdyxworker.widget.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showBottomLine="false"
+        app:leftType="imageButton"
+        app:leftImageResource="@mipmap/btn_fanhui"
+        app:centerType="textView"
+        app:centerText="配送任务">
+    </com.mfc.kdyxworker.widget.TitleBar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ry_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

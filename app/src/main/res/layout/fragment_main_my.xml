@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+    <!--<include layout="@layout/layout_titlebar"/>-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@mipmap/img_shouyebeijing"/>
+    <com.mfc.kdyxworker.widget.MyListItems
+        android:id="@+id/m_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"/>
+    <com.mfc.kdyxworker.widget.MyListItems
+        android:id="@+id/m_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"/>
+    <com.mfc.kdyxworker.widget.MyListItems
+        android:id="@+id/m_verson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/selector_btn_bgrey_bordergrey_r"
+        android:text="退出登录"
+        android:textSize="16dp"
+        android:textColor="@color/color_black_lignt"/>
+    <!--<com.scwang.smartrefresh.layout.SmartRefreshLayout-->
+    <!--android:id="@+id/refreshLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/ry_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>-->
+    <!--</com.scwang.smartrefresh.layout.SmartRefreshLayout>-->
+</LinearLayout>
